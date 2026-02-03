@@ -116,9 +116,81 @@ footer{
     position:fixed;
     bottom:20px;
     right:20px;
+
+    width: 65px;
+    height: 65px;
+    
     background:#25d366;
     color:white;
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
     font-size:30px;
-    padding:15px;
-    border-radius:50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    z-index: 1000;
+    transition: transform 0.2s ease;
+    
+}
+
+.whatsapp:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.tema-btn{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* ===== MODO OSCURO ===== */
+.dark{
+    background: #0d1b2a;
+    color: white;
+}
+
+.dark header,
+.dark nav,
+.dark footer{
+    background: #000814;
+}
+
+.dark .card{
+    background: #1b263b;
+    color: white;
+}
+
+.dark .nosotros,
+.dark .contacto{
+    background: #0d1b2a;
+}
+
+.dark input,
+.dark textarea{
+    background: #1b263b;
+    color: white;
+    border: 1px solid #ccc;
+}
+
+#enviar{
+    background-color: #ffffff1b;
+    border-radius: 5px;
+    border-color: #00000057;
+}
+
+#enviar:hover{
+    background-color: #00000063;
+    border-radius: 5px;
+    border-color: #00000057;
+    color: rgb(255, 255, 255);
 }

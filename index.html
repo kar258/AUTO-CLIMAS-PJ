@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Climas | Reparación y Mantenimiento</title>
+    <title>Auto Climas  | Reparación y Mantenimiento</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -19,13 +19,16 @@
     <a href="#nosotros">Nosotros</a>
     <a href="#galeria">Trabajos</a>
     <a href="#contacto">Cotización</a>
+    <button id="temaBtn" class="tema-btn">
+        <i class="fa-solid fa-moon"></i>
+    </button>
 </nav>
 
 <section class="hero">
     <div class="hero-text">
         <h2>¿Tu clima ya no enfría?</h2>
         <p>Diagnóstico, reparación y mantenimiento profesional para que vuelvas a manejar con confort.</p>
-        <a href="https://wa.me/521XXXXXXXXXX" class="btn">Cotiza por WhatsApp</a>
+        <a href="https://wa.me/529932883031" class="btn">Cotiza por WhatsApp</a>
     </div>
 </section>
 
@@ -72,10 +75,10 @@
 <section id="contacto" class="contacto">
     <h2>Solicita tu cotización</h2>
     <form id="formulario">
-        <input type="text" placeholder="Nombre" required>
-        <input type="tel" placeholder="Teléfono" required>
-        <textarea placeholder="Describe tu problema"></textarea>
-        <button type="submit">Enviar</button>
+        <input type="text"  id="nombre" placeholder="Nombre" required>
+        <input type="tel"  id="telefono" placeholder="Teléfono" required>
+        <textarea  id="mensaje" placeholder="Describe tu problema" required></textarea>
+        <button id="enviar" type="submit">Enviar</button>
     </form>
 </section>
 
